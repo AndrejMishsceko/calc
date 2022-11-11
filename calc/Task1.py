@@ -44,7 +44,7 @@ cnt = Controller()
 #print(cnt.menu_eval('1.1+20'))
 #print(cnt.menu_eval('1+1i+2+2i'))
 #print(cnt.menu_plog())
-app = ApplicationBuilder().token("5728522493:AAEmpIKuOU9_iZm-w_b7WVwQ64obtDxynDc").build()
+app = ApplicationBuilder().token("5400363646:AAHBoNpTO3Sun8vgsQchi5aXhCJ6r9JrsiI").build()
 
 app.add_handler(CommandHandler("help", help))
 app.add_handler(CommandHandler("menu", menu))
